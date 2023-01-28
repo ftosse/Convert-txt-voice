@@ -1,10 +1,19 @@
 import pyttsx3
+import PyPDF2
 
-book= open(r"texto.txt")
-book_text= book.readlines()
-engine= pyttsx3.init()
+# Inicializar el motor de voz
+engine = pyttsx3.init()
 
-for line in book_text:
-    engine.say(line)
-    engine.runAndWait()
+# Abrir el archivo PDF
+with open('lectura.pdf', 'rb') as f:
+    pdf = PyPDF2.PdfFileReader(f)
+    text = ""
+    # Iterar a través de todas las páginas del PDF
+    for page in range(pdf.getNumPages()):
+        text += pdf.getPage(page).extractText()
 
+# Decir el texto
+engine.say(text)
+
+# Ejecutar el motor de voz
+engine.runAndWait()
