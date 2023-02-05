@@ -3,6 +3,16 @@ La evolución rápida del diseño de sistemas celulares hacia 5G y más allá da
 
 
 
+Nombre: Microsoft Helena Desktop - Spanish (Spain)
+Identificador: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_ES-ES_HELENA_11.0
+
+
+Nombre: Microsoft Zira Desktop - English (United States)
+Identificador: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0
+
+
+Nombre: Microsoft David Desktop - English (United States)
+Identificador: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0
 
 
 
