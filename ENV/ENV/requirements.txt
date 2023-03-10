@@ -1,0 +1,10 @@
+comtypes==1.1.14
+distlib==0.3.6
+filelock==3.9.0
+platformdirs==2.6.2
+PyPDF2==2.12.1
+pypiwin32==223
+pyttsx3==2.90
+pywin32==305
+virtualenv==20.17.1
+virtualenvwrapper-win==1.2.7
